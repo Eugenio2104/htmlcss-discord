@@ -1,71 +1,129 @@
 *{
-  margin: 0;
+  border: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.debug{
-  background-color: red;
-  border: 1px solid blue;
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header{
-  height: 50px;
-  background-color: orange;
-  display: flex;
-}
-
-.jumbotron{
-  background-color: blue;
-  height: 250px; /*inserimento img*/
-}
 
 main{
-  height: 2000px;
-  background-color: aquamarine;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-section{
-  width: 100%;
-  background-color: blueviolet;
+  margin-bottom: 50px;
 }
 
 .container{
-  height: 100%;
-  flex-direction: row;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.container .info{
-  height: 741px;
-  background-color: darkturquoise;
-  border: 2px solid black;
+/*header*/
+
+header{
   display: flex;
   align-items: center;
+  height: 80px;
+  background-color: #3061e0;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+
+
+/*jumbotron*/
+.jumbotron{
+  display: flex;
   justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-color: aqua;
 }
 
-.info .img{
-  width: 70%;
-  height: 500px;
-  background-color: darkgray;
-  border: 2px solid black;
+.jumbotron .content{
+  max-width: 800px;
+  background-color: blueviolet;
 }
 
-.info .info-1{
-  width: 30%;
-  height: 500px;
-  background-color: darkgray;
-  border: 2px solid black;
+/*Main*/
+main{
+  margin-top: 50px;
+}
 
+section{
+margin-bottom: 50px;
+}
+
+section .bg-grey{
+  background-color: #f6f6f6;
+}
+
+section .container{
+ display: flex;
+  /*debug*/
+ min-height: 500px;
+ background-color: orange;
+}
+
+section .container .img{
+  width: 60%;
+  /*debug*/
+  min-height: 300px;
+  background-color: deeppink;
+}
+
+section .container .text{
+  width: 40%;
+/*debug*/
+min-height: 300px;
+background-color: green;
+}
+
+section.section-bottom.container{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
-
+/*footer*/
 
 footer{
-  height: 200px;
-  background-color: brown;
+  background-color: black;
 }
- 
+
+.footer-top{
+  display: flex;
+  /**/
+  min-height: 300px;
+  background-color: yellow;
+}
+
+.footer-bottom{
+  /**/
+  min-height: 300px;
+  background-color: rgb(180, 180, 96);
+}
+
+.footer-top .col-social{
+  width: calc(100% / 3);
+  min-height: 200px;
+
+  /*debug*/
+  background-color: fuchsia;
+}
+
+.footer-top .col-menu{
+  width: calc(100% / 6);
+  min-height: 200px;
+
+  /*debug*/
+  min-height: 200px;
+  background-color: blue;
+}
+
