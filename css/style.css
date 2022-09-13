@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: red;
+  border: 1px solid blue;
+}
+
+header{
+  height: 50px;
+  background-color: orange;
+  display: flex;
+}
+
+.jumbotron{
+  background-color: blue;
+  height: 250px; /*inserimento img*/
+}
+
+main{
+  height: 2000px;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section{
+  width: 100%;
+  background-color: blueviolet;
+}
+
+.container{
+  height: 100%;
+  flex-direction: row;
+}
+
+.container .info{
+  height: 741px;
+  background-color: darkturquoise;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info .img{
+  width: 70%;
+  height: 500px;
+  background-color: darkgray;
+  border: 2px solid black;
+}
+
+.info .info-1{
+  width: 30%;
+  height: 500px;
+  background-color: darkgray;
+  border: 2px solid black;
+
+}
+
+
+
+
+footer{
+  height: 200px;
+  background-color: brown;
+}
+ 
