@@ -107,8 +107,12 @@ section{
 margin-bottom: 50px;
 }
 
-section .bg-grey{
+section.bg-grey{
   background-color: #f6f6f6;
+}
+
+#row-rev{
+  flex-direction: row-reverse;
 }
 
 section .container{
