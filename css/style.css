@@ -1,5 +1,5 @@
 *{
-  border: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -32,7 +32,25 @@ header .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  color: white;
+}
+
+li:hover{
+  text-decoration: underline red;
+  color: black;
+}
+
+header .button{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: #292d30;
 }
 
 
@@ -43,12 +61,19 @@ header .container{
   align-items: center;
   height: 550px;
   background-color: aqua;
+  background-image: url(/img/jumbo.png);
+  background-size: cover;
 }
 
 .jumbotron .content{
   max-width: 800px;
-  background-color: blueviolet;
+  display: flex;
 }
+
+h1{
+
+}
+
 
 /*Main*/
 main{
